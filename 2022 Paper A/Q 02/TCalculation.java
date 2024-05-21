@@ -15,7 +15,8 @@ public class TCalculation <T extends Number>{
 		double tot = 0 ;
 		
 		for(T value : numList) {
-			tot += value.doubleValue();
+			//total = total + value.doubleValue --> total = 0 + value.doubleValue
+			tot += value.doubleValue(); 
 		}
 		
 		return tot/numList.size();
