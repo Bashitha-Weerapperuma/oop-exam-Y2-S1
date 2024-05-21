@@ -1,3 +1,5 @@
+package question2;
+
 public class CountDown extends Thread {
 
 	public void run() {

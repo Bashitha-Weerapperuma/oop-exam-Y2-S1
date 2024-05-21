@@ -1,3 +1,5 @@
+package question2;
+
 public class CalcSum implements Runnable {
 
 	private int total;
